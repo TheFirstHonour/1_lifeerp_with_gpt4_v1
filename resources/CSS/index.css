@@ -5,6 +5,7 @@ nav {
     padding: 10px;
     margin: 0;
     box-sizing: border-box;
+    width: 100%;
   }
 
 nav ul {
@@ -29,6 +30,7 @@ nav ul li a {
     left: 0;
     width: 100%;
     z-index: 999;
+    display: inline-block;
 }
 
 /* ========================================================== */
