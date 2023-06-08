@@ -4,8 +4,6 @@ nav {
     background-color: #f2f2f2;
     padding: 10px;
     margin: 0;
-    box-sizing: border-box;
-    width: 100%;
   }
 
 nav ul {
@@ -24,8 +22,8 @@ nav ul li a {
     color: #333;
   }
 
-.navbar {
-    position: fixed;
+.navbar object{
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -36,6 +34,21 @@ nav ul li a {
 /* ========================================================== */
 /* ========================================================== */
 /* ========================================================== */
+/* HEAD */
+
+head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: inline-block;
+}
+
+/* ========================================================== */
+/* ========================================================== */
+/* ========================================================== */
+/* BODY */
 
 button {
     border-radius: 12px;
@@ -61,6 +74,7 @@ button:hover {
 }
 
 body {
+    margin-top: 25px;
     font-family: Helvetica;
     font-weight: bold;
     
