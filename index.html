@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LifeERP</title>
+    <link rel="stylesheet" href="./resources/CSS/index.css">
+    <link rel="import" href="navbar.html">
 </head>
 <body>
+     <!-- Include the navigation bar -->
+    <object data="./navbar/navbar.html" type="text/html"></object>
     <!-- TABLE -->
-    <table>
+    <table class="mainButtons">
         <tr>
-            <td><button>TEST</button></td>
+            <td><button onclick="location.href = './apps/notes_app/notes_app.html';">Notes</button></td>
             <td><button></button></td>
             <td><button></button></td>
         </tr>

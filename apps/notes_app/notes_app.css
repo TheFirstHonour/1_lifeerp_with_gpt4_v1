@@ -1,0 +1,12 @@
+nav li {
+    display: inline-block;
+    font-family: helvetica;
+}
+
+nav {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    display: flex;
+}
